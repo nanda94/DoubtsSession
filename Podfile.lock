@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireObjectMapper (4.0.0):
+    - Alamofire (~> 4.0)
+    - ObjectMapper (~> 2.0)
+  - Cosmos (6.0.1)
+  - FontAwesome.swift (1.2.0)
+  - KeychainAccess (3.0.2)
+  - ObjectMapper (2.0.0)
+  - SparkSDK (1.2.0):
+    - Alamofire (~> 4.0.0)
+    - AlamofireObjectMapper (~> 4.0.0)
+    - KeychainAccess (~> 3.0.0)
+    - ObjectMapper (~> 2.0.0)
+    - Starscream (~> 2.0.0)
+    - SwiftyJSON (~> 3.1.0)
+  - Starscream (2.0.4)
+  - SwiftyJSON (3.1.4)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 6.0.0)
+  - FontAwesome.swift
+  - SparkSDK (from `https://github.com/ciscospark/spark-ios-sdk.git`, branch `master`)
+  - Toast-Swift (~> 2.0.0)
+
+EXTERNAL SOURCES:
+  SparkSDK:
+    :branch: master
+    :git: https://github.com/ciscospark/spark-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  SparkSDK:
+    :commit: 75d09937de7e61dc3816f50023f3aeed7a641bd6
+    :git: https://github.com/ciscospark/spark-ios-sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireObjectMapper: 9faa3ce5a240efda1b209009a2d6e1e949227abc
+  Cosmos: 374de9804e382a23662908688ab15c8f473977fe
+  FontAwesome.swift: 60063e3f19ba4801155d4b0f2334ab7585763ab3
+  KeychainAccess: a986406022dfc7c634c691ad3bec670cc6a32002
+  ObjectMapper: aed2570edabbd3c9b26c939e1cabdb6558f933e0
+  SparkSDK: b8e1f8d5fd128a9228c50da94eb70ebb2a3e0ba5
+  Starscream: df5974ee928b157c8eda8af8de7c620276b7dfcc
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: caae5cf788182b2713d794672c9d664483c6397a
+
+COCOAPODS: 1.2.1
