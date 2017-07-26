@@ -1,2 +1,0 @@
-# DoubtsSession
-DoubtsSession
